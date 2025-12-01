@@ -64,4 +64,10 @@ public class CalculatorTest
         // Assert
         Assert.Equal(expected, result);
     }
+    
+    [Fact]
+    public void TestFail()
+    {
+        Assert.True(false);
+    }
 }
