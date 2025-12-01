@@ -18,4 +18,5 @@ RUN dotnet publish "./test-repo1.csproj" -c $BUILD_CONFIGURATION -o /app/publish
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "test-repo1.dll"]
+
+CMD ["sleep", "infinity"] 
