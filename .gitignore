@@ -2,4 +2,6 @@
 /test-repo1/bin
 /test-repo1.Tests/bin
 /test-repo1.Tests/obj
+/test-repo1.E2E.Tests/obj
+/test-repo1.E2E.Tests/bin
 .idea
