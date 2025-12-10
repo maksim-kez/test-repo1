@@ -89,7 +89,36 @@ namespace test_repo1
             return rand.Next();
         }
     }
-    
+
+    public class SqlDataAdapter
+    {
+        public SqlDataAdapter(SqlCommand command)
+        {
+            throw new NotImplementedException();
+        }
+    }
+
+    public class SqlCommand 
+    {
+        public SqlCommand(string s, SqlConnection connection)
+        {
+            throw new NotImplementedException();
+        }
+    }
+
+    public class SqlConnection : IDisposable
+    {
+        public SqlConnection(string serverMyserveraddressDatabaseMydatabaseUserIdMyusernamePasswordSupersecret123)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Dispose()
+        {
+            // TODO release managed resources here
+        }
+    }
+
     // Large class - Code Smell
     public class GodClass
     {
