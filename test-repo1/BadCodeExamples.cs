@@ -96,6 +96,11 @@ namespace test_repo1
         {
             throw new NotImplementedException();
         }
+
+        public void Fill(DataTable result)
+        {
+            throw new NotImplementedException();
+        }
     }
 
     public class SqlCommand 
